@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: greeting
+          uri: http://localhost:6000/
+          predicates:
+            - Path=/greeting/**
+
+server:
+  port: 4000
