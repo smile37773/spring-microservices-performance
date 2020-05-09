@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # ==== Resource Group ====
-export RESOURCE_GROUP=spring-microservices-performance-05-2020
+export RESOURCE_GROUP=spring-microservices-performance-05-2020-test
 export REGION=westus2
 
 # ==== First Instance ====
