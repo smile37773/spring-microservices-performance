@@ -18,3 +18,11 @@ management:
         include: "*"
     shutdown:
       enabled: true
+      
+management:
+  endpoints:
+    jmx:
+      exposure:
+        include: "*"
+    shutdown:
+      Senabled: true
