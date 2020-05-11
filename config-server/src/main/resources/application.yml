@@ -25,4 +25,4 @@ management:
       exposure:
         include: "*"
     shutdown:
-      Senabled: true
+      enabled: true
